@@ -1,0 +1,305 @@
+/*FONTS*/
+
+/*font-family: 'Oxygen', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;*/
+
+/*-----------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: url("../images/stone.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.navbar {
+	padding: 0;
+}
+
+.bg-dark {
+	background-color: black!important;
+}
+
+.container {
+	background-color: rgba(0, 0, 0, .5);
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.for-space {
+	height: 2.5vh;
+}
+
+.title {
+	height: 20vh;
+	padding-top: 5vh;
+	text-align: center;
+}
+
+.title > h1 {
+	text-shadow: 3px 2px 2px black;
+	font-family: 'Ubuntu', sans-serif;
+	color: hsl(0, 0%, 85%);
+	font-size: 60px;
+}
+
+.card {
+	border: 2px solid grey;
+	background-color: rgba(255, 255, 255, .9);
+}
+
+.card > img {
+	margin: 0 auto;
+	margin-top: 5px;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid grey;
+}
+
+.for-desktop > main > img {
+	margin: 0 auto;
+	margin-top: 0px;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin-right: 20px;
+	border: 2px solid grey;
+	float: left;
+}
+
+
+
+.for-desktop > main > p {
+	color: hsl(0, 0%, 85%);
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.card-body {
+	text-align: center;
+	padding: 10px;
+}
+
+.card-body > h5 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	margin: 0;
+}
+
+.card-body > h6 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.card-body > p {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: 500;
+}
+
+
+article {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-radius: 5px;
+	/*margin: 0 2px 0 2px; */
+	background-color: rgba(0, 0, 0, .85);
+	height: auto;
+	padding: 20px;
+}
+
+article > .jumbotron {
+	margin: 0px;
+	height: auto;
+}
+
+.jumbotron > img {
+	height: 200px;
+	width: 600px;
+	float: left;
+	margin-right: 20px;
+}
+
+.jumbotron-fluid > img {
+	height: 200px;
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+.jumbotron {
+	border-radius: 10px;
+}
+
+.jumbotron-fluid {
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 600px;
+}
+
+.skill-section {
+	background-color: rgba(0, 0, 0, .85);
+	text-shadow: 3px 2px 2px black;
+	font-family: 'Ubuntu', sans-serif;
+	color: hsl(0, 0%, 85%);
+	font-size: 60px;
+}
+
+.html-percent {
+	width: 87%;
+}
+
+.css-percent {
+	width: 75%;
+}
+
+.bootstrap-percent {
+	width: 50%;
+}
+
+.jscript-percent {
+	width: 3%;
+}
+
+.php-percent {
+	width: 1%;
+}
+
+.laravel-percent {
+	width: 1%;
+}
+
+
+
+/*END OF HEADER NAV------------------------------------------*/
+
+.gerard1 {
+	background-color: lightgreen;
+	/*float: left;*/
+	text-align: center;
+	height: 50px;
+}
+
+.gerard2 {
+	background-color: lightgrey;
+	/*float: left;*/
+	text-align: center;
+	height: 50px;
+}
+
+.gerard3 {
+	background-color: lightblue;
+	/*float: left;*/
+	text-align: center;
+	height: 50px;
+}
+
+.gerard4 {
+	background-color: aqua;
+	/*float: left;*/
+	text-align: center;
+	height: 50px;
+}
+
+
+/*MEDIA QUERIES-----------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 4000px) {
+
+	.navbar-nav {
+		margin-right: 8%;
+	}
+
+	.nav-item {
+		padding-right: 3%;
+	}
+
+	.card {
+		display: none;
+	}
+
+	.none{
+		display: none;
+	}
+
+
+}
+
+/*tablet view*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+
+	.for-desktop {
+		display: none;
+	}
+
+	.navbar-toggler-icon {
+		display: none;
+	}
+
+	#navbar > a {
+		margin-left: 37%;
+	}
+
+	#navbar > button {
+		padding: 2%;
+	}
+
+	.nav-link {
+		text-align: center;
+	}
+
+	.nav-item {
+		padding-left: 6%;
+	}
+
+}
+
+
+
+/*mobile view*/
+
+@media only screen and (max-width: 400px) {
+
+	.for-desktop {
+		display: none;
+	}
+
+	#navbar > a {
+		margin-left: 24.5%;
+	}
+
+	.navbar-menu {
+		display: none;
+	}
+
+	.nav-link {
+		text-align: center;
+	}
+
+	.nav-item {
+		padding-left: 13%;
+	}
+
+	.title {
+		height: 15vh;
+	}
+
+	.title > h1 {
+		font-size: 28px;
+		margin-bottom: 0;
+	}
+
+	.no-mobile {
+		display: none;
+	}
+}
