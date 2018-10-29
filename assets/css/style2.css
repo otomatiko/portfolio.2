@@ -1,0 +1,85 @@
+/*FONTS*/
+
+/*
+	font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+
+*/
+
+/*-----------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.ubuntuh {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.ubuntup {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.roboto {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+body {
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.for-space {
+	height: 2vh;
+}
+
+.for-space-mini {
+	height: 0.5vh;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.width10rem {
+	width: 10rem;
+}
+
+.vh60 {
+	height: auto;
+	padding: 5%;
+}
+
+.bg-light-opacity {
+	background-color: rgba(255, 255, 255, .5);
+	height: 50vh;
+}
+
+/*MEDIA QUERIES-----------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 4000px) {
+
+
+}
+
+/*tablet view*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+
+
+}
+
+
+
+/*mobile view*/
+
+@media only screen and (max-width: 400px) {
+
+
+}
